@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ![](https://github.com/danielnowrot/todoList/blob/78cedc56b141daae61cfcf64542f57b2f846f482/images/todoListGif.gif)
 
 ## Demo
-https://danielnowrot.github.io/todoList/
+https://danielnowrot.github.io/todo-list-react/
 ## Description
 The page allows you to add, delete and mark as completed various tasks.
 ## Updates:
