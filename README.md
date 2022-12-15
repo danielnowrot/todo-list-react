@@ -22,6 +22,7 @@ Added visual effects for all buttons.
 - HTML
 - CSS
 - JavaScript
+- React
 - BEM
 - ES6 + features
 
