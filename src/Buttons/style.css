@@ -5,6 +5,7 @@
     color: hsl(180, 100%, 25%);
     transition:1s;
     cursor: pointer;
+    background: transparent;
 }
 
 .button__hideAll:hover {
@@ -27,6 +28,7 @@
     color: hsl(180, 100%, 25%);
     transition: 1s;
     cursor: pointer;
+    background-color: transparent;
 }
 
 .button__doneAll:hover {
