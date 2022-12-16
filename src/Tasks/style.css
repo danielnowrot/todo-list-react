@@ -10,7 +10,7 @@
     grid-gap: 10px;
     padding: 10px;
     align-items: center;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid #ddd;
 }
 
 .tasks__listItem--hidden {

@@ -1,6 +1,6 @@
 .button__hideAll {
     border: none;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid #ddd;
     padding: 20px;
     color: hsl(180, 100%, 25%);
     transition:1s;
@@ -16,13 +16,13 @@
 }
 
 .button__hideAll:disabled {
-    color: gray;
+    color: #ddd;
     cursor: auto;
 }
 
 .button__doneAll {
     border: none;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid #ddd;
     padding: 20px;
     color: hsl(180, 100%, 25%);
     transition: 1s;
@@ -38,7 +38,7 @@
 }
 
 .button__doneAll:disabled {
-    color: gray;
+    color: #ddd;
     cursor:auto;
 }
 
