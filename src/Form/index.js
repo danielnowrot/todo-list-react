@@ -23,4 +23,5 @@ const Form = ({ addNewTask }) => {
         </form>
     )
 };
+
 export default Form;
