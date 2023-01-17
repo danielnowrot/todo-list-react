@@ -1,3 +1,14 @@
+.buttons {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+@media (max-width:767px) {
+    .buttons {
+        grid-template-columns: 1fr;
+    }
+}
+
 .buttons__button {
     border: none;
     border-bottom: 2px solid #ddd;

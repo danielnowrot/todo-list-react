@@ -1,7 +1,7 @@
 .section {
     background-color:hsl(0, 0%, 100%);
     color: rgb(5, 5, 5);
-    margin: 10px;
+    margin-bottom: 10px;
     border-radius: 2px;
     box-shadow: 0 0 5px #ddd;
 }
@@ -30,17 +30,9 @@
     padding-bottom: 0;
 }
 
-.section__buttons {
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
 @media (max-width:767px) {
     .section__header {
         grid-template-columns: 1fr;
         border-bottom: none;
-    }
-    .section__buttons {
-        grid-template-columns: 1fr;
     }
 }
