@@ -1,4 +1,4 @@
-.button__hideAll {
+.buttons__button {
     border: none;
     border-bottom: 2px solid #ddd;
     padding: 20px;
@@ -8,47 +8,21 @@
     background: transparent;
 }
 
-.button__hideAll:hover {
+.buttons__button:hover {
     color: hsl(180, 100%, 30%);
 }
 
-.button__hideAll:active {
+.buttons__button:active {
     color:hsl(180, 100%, 35%);
 }
 
-.button__hideAll:disabled {
+.buttons__button:disabled {
     color: #ddd;
     cursor: auto;
 }
 
-.button__doneAll {
-    border: none;
-    border-bottom: 2px solid #ddd;
-    padding: 20px;
-    color: hsl(180, 100%, 25%);
-    transition: 1s;
-    cursor: pointer;
-    background-color: transparent;
-}
-
-.button__doneAll:hover {
-    color: hsl(180, 100%, 30%);
-}
-
-.button__doneAll:active {
-    color:hsl(180, 100%, 35%);
-}
-
-.button__doneAll:disabled {
-    color: #ddd;
-    cursor:auto;
-}
-
 @media(max-width:767px) {
-    .button__doneAll {
-        border-bottom: none;
-    }
-    .button__hideAll {
+    .buttons__button {
         border-bottom: none;
     }
 }

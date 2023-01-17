@@ -5,12 +5,12 @@ const Buttons = ({ tasks, hideDone, toggleHideDone, setAllDone }) => (
         <div className="section__buttons">
             <button
                 onClick={toggleHideDone}
-                className="button__hideAll">
+                className="buttons__button">
                 {hideDone ? "Pokaż " : "Ukryj "}ukończone
             </button>
             <button
                 onClick={setAllDone}
-                className="button__doneAll"
+                className="buttons__button"
                 disabled={tasks.every(({ done }) => done)}>
                 Ukończ wszystkie
             </button>
