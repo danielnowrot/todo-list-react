@@ -1,10 +1,10 @@
-.tasks__list {
+.tasks {
     list-style: none;
     margin: 0;
     padding: 20px;
 }
 
-.tasks__listItem {
+.tasks__item {
     display: grid;
     grid-template-columns: auto 1fr auto;
     grid-gap: 10px;
@@ -13,11 +13,11 @@
     border-bottom: 2px solid #ddd;
 }
 
-.tasks__listItem--hidden {
+.tasks__item--hidden {
     display: none;
 }
 
-.tasks__listText--done {
+.tasks__content--done {
     text-decoration: line-through;
 }
 
