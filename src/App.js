@@ -13,7 +13,7 @@ function App() {
   
   useEffect(()=>{
     localStorage.setItem("tasksTable",JSON.stringify(tasks));
-  });
+  },[tasks]);
 
   const toggleHideDone = () => {
     setHideDone(hideDone => !hideDone);
