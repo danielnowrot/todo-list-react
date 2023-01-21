@@ -12,3 +12,6 @@ body {
   background: #ddd;
 }
 
+.section__container {
+  padding: 20px;
+}
