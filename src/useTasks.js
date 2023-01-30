@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useEffect } from "react";
 
-export function useTasks() {
+export const useTasks = () => {
     const [tasks, setTasks] = useState(JSON.parse(localStorage.getItem("tasksTable")) ?? []);
 
     useEffect(() => {
