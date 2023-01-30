@@ -2,7 +2,6 @@ import { useState } from "react";
 import { useEffect } from "react";
 
 export function useTasks() {
-
     const [tasks, setTasks] = useState(JSON.parse(localStorage.getItem("tasksTable")) ?? []);
 
     useEffect(() => {
@@ -10,7 +9,6 @@ export function useTasks() {
     }, [tasks]);
 
     const removeTask = (id) => {
-        localStorage.setItem("tasksTable", JSON.stringify(tasks));
         setTasks(tasks => tasks.filter(task => task.id !== id));
     };
 
@@ -32,7 +30,7 @@ export function useTasks() {
                 done: false,
                 id: tasks.length ? tasks[tasks.length - 1].id + 1 : 1,
             }]);
-        localStorage.setItem("tasksTable", JSON.stringify(tasks));
     };
+
     return ({ tasks, removeTask, toggleTaskDone, setAllDone, addNewTask, })
 }
