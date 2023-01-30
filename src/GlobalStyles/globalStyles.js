@@ -1,9 +1,11 @@
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyle = createGlobalStyle`
 html {
   box-sizing: border-box;
 }
 
-*,
-::after, ::before {
+*, ::after, ::before {
   box-sizing: inherit
 }
 
@@ -15,3 +17,6 @@ body {
 .section__container {
   padding: 20px;
 }
+`;
+
+export default GlobalStyle;
