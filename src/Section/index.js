@@ -1,6 +1,6 @@
-import {SectionComponents, SectionHeader, SectionTitle} from "./styled"
+import { SectionComponents, SectionHeader, SectionTitle } from "./styled"
 
-const Section = ({ title, body, extraContent}) => (
+const Section = ({ title, body, extraContent }) => (
     <SectionComponents>
         <SectionHeader>
             <SectionTitle>
