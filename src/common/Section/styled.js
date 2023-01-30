@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const SectionComponents = styled.section`
+export const Wrapper = styled.section`
     background-color:hsl(0, 0%, 100%);
     color: rgb(5, 5, 5);
     margin-bottom: 10px;
