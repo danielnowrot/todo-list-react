@@ -25,6 +25,7 @@ Added visual effects for all buttons.
 - React
 - BEM
 - ES6 + features
+- Redux
 
 ## Available Scripts
 
