@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-export const ButtonsContainer = styled.div`
+export const Wrapper = styled.div`
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
 
     @media (max-width:767px) {
         grid-template-columns: 1fr;
