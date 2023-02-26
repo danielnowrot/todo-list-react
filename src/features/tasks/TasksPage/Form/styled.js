@@ -12,8 +12,8 @@ export const FormComponent = styled.form`
 `;
 
 export const Button = styled.button`
-    background: hsl(180, 100%, 25%);
-    color: antiquewhite;
+    background: teal;
+    color: white;
     padding: 10px;
     border: none;
     transition: 1s; 
