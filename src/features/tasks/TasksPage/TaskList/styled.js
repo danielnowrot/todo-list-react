@@ -1,5 +1,11 @@
 import { css } from "styled-components";
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
+
+export const StyledLink = styled(NavLink)`
+    color: teal;
+    text-decoration: none;
+`;
 
 export const List = styled.ul`
     list-style: none;
@@ -28,7 +34,7 @@ export const Content = styled.span`
 
 export const Button = styled.button`
     border: none;
-    color: antiquewhite;
+    color: white;
     width: 30px;
     height: 30px;
     padding: 0;
