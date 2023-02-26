@@ -11,10 +11,6 @@ export const FormComponent = styled.form`
     }
 `;
 
-export const Input = styled.input`
-    padding: 10px;
-`;
-
 export const Button = styled.button`
     background: hsl(180, 100%, 25%);
     color: antiquewhite;
