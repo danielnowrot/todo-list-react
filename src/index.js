@@ -4,12 +4,16 @@ import ReactDOM from 'react-dom/client';
 import { App } from './App';
 import reportWebVitals from './reportWebVitals';
 import store from "./store";
+import GlobalStyle from './GlobalStyles/globalStyles';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
+      <main>
+        <GlobalStyle/>
       <App />
+      </main>
     </Provider>
   </React.StrictMode>
 );
