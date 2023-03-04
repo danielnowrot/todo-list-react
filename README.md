@@ -6,7 +6,7 @@ This is another version of tasks list created as part of YouCode course.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![](https://github.com/danielnowrot/todoList/blob/78cedc56b141daae61cfcf64542f57b2f846f482/images/todoListGif.gif)
+![](https://github.com/danielnowrot/todo-list-react/blob/4b3d99fe8d81f3320057b5aa23580a14beb19be0/todoList.gif)
 
 ## Demo
 https://danielnowrot.github.io/todo-list-react/
