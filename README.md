@@ -15,7 +15,11 @@ The page allows you to add, delete and mark as completed various tasks.
 ## Updates:
 Added two buttons:
 - Hide done tasks,
-- Mark all tasks completed.
+- Mark all tasks completed,
+- Searching tasks,
+- Task page,
+- Samples tasks button,
+- About the author page
 
 Added visual effects for all buttons.
 ## Technologies:
